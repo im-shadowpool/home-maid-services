@@ -20,6 +20,11 @@ export default function RootLayout({
       <body className={inter.className}>
           <Header />
         <div className="mx-6 md:mx-20">
+          <div className="relative">
+          <div className="bg-[#e7d7fbe7] absolute -z-10 top-[-6rem]  right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#628c94]"></div>
+          <div className="bg-[#fef0e0] absolute -z-10 top-[-1rem] left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-20rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
+
+          </div>
           {children}
         </div>
       </body>
